@@ -1,0 +1,12 @@
+[Unit]
+Description=system service
+After=network.target
+
+[Service]
+User=xxxxx
+WorkingDirectory=Location of your working directory
+ExecStart=script that you want to run
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
