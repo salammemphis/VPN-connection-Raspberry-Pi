@@ -1,0 +1,10 @@
+#Install following package
+sudo apt-get update
+sudo apt-get install openconnect
+
+#Test
+
+#!/bin/bash
+sudo echo password | openconnect --os=win --user=XXX --servercert XXXX VPN_server_name --passwd-on-stdin
+
+
