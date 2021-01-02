@@ -44,6 +44,7 @@ Configure Raspberry Pi to connect to Personal or Enterprise Network
     /etc/network/interface
 
 5. add following content in wlan0 section of that file
+
     auto wlan0
     allow-hotplug wlan0
     iface wlan0 inet dhcp
