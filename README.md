@@ -3,6 +3,7 @@
 Configure Raspberry Pi to connect to Personal or Enterprise Network
 
 1. Add a configuration file in following location 
+
     sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 2. Add following content in that file based on WIFI type
 
@@ -32,6 +33,7 @@ Configure Raspberry Pi to connect to Personal or Enterprise Network
     }
 
 3. Generate and replace Hash password in above file 
+
     #Personal authentication (WPA, WPA2)
     wpa_passphrase YOUR_NETWORK_NAME YOUR_PASSWORD
 
